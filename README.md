@@ -10,15 +10,12 @@ This project analyzes the IMDb Movies India dataset to provide insights about In
 - Analyze movie genres
 - Display top rated movies
 - Year-wise movie analysis
-- Interactive web dashboard using Streamlit
 
 ## Requirements
 
 - Python 3.x
 - pandas
 - numpy
-- streamlit
-- plotly
 
 ## Installation
 
@@ -39,7 +36,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Command Line Interface
 Run the project using either of these commands:
 
 ```bash
@@ -49,21 +45,6 @@ or
 ```bash
 ./run.sh
 ```
-
-### Web Dashboard
-To run the interactive web dashboard:
-
-```bash
-streamlit run app.py
-```
-
-This will open a web browser with the interactive dashboard where you can:
-- Filter movies by genre and year
-- View top rated movies
-- Explore genre distribution
-- Analyze year-wise trends
-- Search for specific movies or directors
-- View rating distributions
 
 ## Dataset Description
 
@@ -112,7 +93,6 @@ The program provides:
 ```
 movie-rating-analysis/
 ├── movie_rating.py      # Main Python script
-├── app.py              # Streamlit web dashboard
 ├── run.sh              # Shell script to run the project
 ├── requirements.txt    # Python dependencies
 ├── README.md          # Project documentation
